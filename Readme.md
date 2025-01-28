@@ -11,9 +11,9 @@ Our artifact includes:
    - Targeted Hateful Memes
    - Poisoned Images
 
-**Due to ethical considerations, the datasets, including the targeted hateful memes dataset (`data/toxic_images/`) and the poisoning datasets (`data/unsafe/`), are hosted on Zenodo with the request-access feature enabled.**
+**Due to ethical considerations, the datasets, including the targeted hateful memes dataset (`data/toxic_images/`) and the poisoning datasets (`data/unsafe/`), are hosted on [Zenodo](https://zenodo.org/records/14754526) with the request-access feature enabled.**
 
-2. Code for main functionalities:
+1. Code for main functionalities:
    - Measure side effects
    - Basic poisoning attacks
    - Stealthy poisoning attacks
@@ -33,15 +33,17 @@ pip install -r requirements.txt
 ### Dataset
 
 1. Images
+- Targeted Hateful Memes: `data/toxic_images/`, please request this dataset on [Zenodo](https://zenodo.org/records/14754526).
+- Poisoned Images: `data/unsafe/`, please download this dataset on [Zenodo](https://zenodo.org/records/14754526).
 - Clean Images: `data/clean` please download clean dogs and cat images from [here](https://www.kaggle.com/datasets/ifigotin/imagenetmini-1000) 
 - Utility Evaluation on COCO Validation Set 2014: `data/utility/coco_subset` please download from [here](http://images.cocodataset.org/zips/val2014.zip)
 
 
-2. (Image Path, Prompt) pairs
+1. (Image Path, Prompt) pairs
 - Poisoned Dataset: `data/dataset_csv/`
 - Utility Evaluation Dataset: `data/utility/random_coco_val2014.parquet` (randomly sampled 2000 image-prompt pairs from COCO validation set)
 
-3. Embedding Model
+1. Embedding Model
 
 - BLIP: `checkpoints/model_base.pth` please download from [here](https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base.pth)
 
