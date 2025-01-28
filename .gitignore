@@ -1,0 +1,8 @@
+# folders
+/**/__pycache__
+checkpoints/
+saved_models/
+results/
+data/
+# files
+*.pyc

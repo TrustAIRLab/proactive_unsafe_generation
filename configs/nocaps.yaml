@@ -1,0 +1,11 @@
+vit: 'base'
+batch_size: 64
+
+image_size: 384
+
+max_length: 20
+min_length: 5
+num_beams: 3
+prompt: 'a photo of '
+
+pretrained: 'checkpoints/model_base.pth'
