@@ -5,4 +5,5 @@ saved_models/
 results/
 data/
 # files
+data.zip
 *.pyc
