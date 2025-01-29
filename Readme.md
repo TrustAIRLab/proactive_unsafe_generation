@@ -28,7 +28,7 @@ Our artifact includes:
 ```
 python >= 3.8
 pip install -r requirements.txt
-unzip data.zip
+tar -xvf data.tar.gz
 ```
 
 ### Dataset
